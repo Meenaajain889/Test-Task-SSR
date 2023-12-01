@@ -1,0 +1,114 @@
+body {
+    width: 100% !important;
+    height: 100%;
+  }
+  #root {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  .nav {
+    width: 100%;
+    display: flex;
+  }
+  .test-box {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+    border-radius: 15px;
+  
+  }
+  .test-box .title {
+    font-size: 36px;
+    word-break: break-all;
+    width: 75%;
+  }
+  .test-box ul {
+    display: flex;
+    list-style: none;
+    background-color: #fff;
+    padding: 0 !important;
+    width: 100%;
+    border: 1px solid #111;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .test-box ul li {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border-bottom: 0;
+  }
+  .test-box ul li a {
+    color: #111;
+  }
+  .test-box ul li.active, .test-box button {
+    background-color: #111;
+  }
+  .test-box ul li.active a, .test-box button {
+    color: #fff;
+  
+  }
+  .test-box input {
+    padding: 15px 10px;
+    width: 600px;
+    border-radius: 15px;
+  }
+  .test-box button{
+    border-radius: 15px !important;
+    border: 0;
+    height: 50px;
+    width: 200px;
+  }
+  .test-box .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px;
+  }
