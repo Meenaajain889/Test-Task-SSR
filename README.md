@@ -1,6 +1,4 @@
 # Test-Task-SSR
-
-# Test-Task
 # Node SSR Page
 This project is a simple web page built with Node, Express and EJS. It allows users to enter text in an input field, and upon pressing a button, it updates the displayed text above the input field.
 
